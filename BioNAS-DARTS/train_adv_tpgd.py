@@ -41,7 +41,7 @@ parser.add_argument('--seed', type=int, default=0, help='random seed')
 parser.add_argument('--arch', type=str, default='BIODARTS', help='which architecture to use')
 parser.add_argument('--grad_clip', type=float, default=5, help='gradient clipping')
 parser.add_argument('--mode', type=str, default=None, help='training mode')
-parser.add_argument('--resume', type=str, default='/home/ih2347/darts/cnn/eval-darts_exp-20240828-140318/best_checkpoint.pth.tar', help='which architecture to resume')
+parser.add_argument('--resume', type=str, default='best_checkpoint.pth.tar', help='which architecture to resume')
 
 args = parser.parse_args()
 

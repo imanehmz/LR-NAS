@@ -1,5 +1,5 @@
 # BioNAS
-NAS for bio-inspired learning rules, we incorporate different feedback alignment techniques from [Biotorch](https://github.com/jsalbert/biotorch)
+NAS for bio-inspired learning rules, we incorporate different bio-inspired learning rules 
 
 # Reproducing experiments
 
@@ -91,4 +91,4 @@ OPS['hebbian_conv'] = lambda C, stride, affine: HebbianConv(C, C, kernel_size=3,
 ```
 
 
-The baseline code has been borrowed from [DARTS](https://github.com/quark0/darts) and [EG-NAS](https://github.com/caicaicheng/EG-NAS), by changing the operations.
+The baseline code has been borrowed from [DARTS](https://github.com/quark0/darts) and [EG-NAS](https://github.com/caicaicheng/EG-NAS), by changing the operations. We borrow some code from [Biotorch](https://github.com/jsalbert/biotorch)
